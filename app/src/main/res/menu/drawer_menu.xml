@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/alert"
+            android:icon="@drawable/alert"
+            android:title="Alert"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/chart"
+            android:icon="@drawable/chart"
+            android:title="Chart"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/export"
+                android:icon="@drawable/export"
+                android:title="Export"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+
+
+</menu>
